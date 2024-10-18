@@ -1,0 +1,22 @@
+body {
+  /* background-color: rgb(174, 255, 228); */
+  background-color: #232323;
+}
+
+h1,
+a {
+  color: #e5e7e9;
+  font-family: Verdana, sans-serif;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  line-height: 150%;
+}
