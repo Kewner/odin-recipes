@@ -1,27 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #232323;
 }
 
-h1,
 a,
 li,
-h2,
 p {
-  color: #e5e7e9;
+  color: #ffecd1;
+  font-family: Verdana, sans-serif;
+  line-height: 160%;
+}
+
+h1,
+h2 {
+  margin: 15px;
+  text-align: center;
+  color: #f7ca91;
   font-family: Verdana, sans-serif;
 }
 
-.center {
-  text-align: center;
+h1 {
+  width: 600px;
+  margin: 20px auto 30px auto;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.instructions {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.instruction-part {
+  border: 2px solid #554f47;
+  border-radius: 8px;
+  margin: 8px auto;
+  padding: 0 10px 10px 10px;
+  width: 600px;
+}
+
+img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px auto 8px auto;
+  border-radius: 8px;
+  width: 600px;
+  height: 300px;
 }
 
-ul {
-  line-height: 150%;
+#cook-image {
+  width: 600px;
+  height: 400px;
 }
 
-.list-no-style {
+#recipe-list {
+  text-align: center;
   list-style: none;
 }
